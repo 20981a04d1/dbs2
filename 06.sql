@@ -24,6 +24,7 @@ use shop;
 -- create table Customers(cid int primary key,fname varchar(20),lname varchar(20),age int,country varchar(20));
 -- create table Orders(oid int primary key,item varchar(20),amount int, cid int,
 -- foreign key(cid) references Customers(cid))
+-- FOREIGN KEY (cid) REFERENCES Customers(cid): Ensures that every cid in Orders must match a cid in Customers.
 
 -- list out customers names 
 -- and items they ordered
